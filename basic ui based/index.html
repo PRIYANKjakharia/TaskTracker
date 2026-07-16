@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="container">
+            <h2>Task Manager</h2>
+            <div class="input">
+                <input type="text" id="input_task_title" placeholder="task title">
+                <br>
+                <input type="text" id="input_task" placeholder="enter task description">
+                <br>
+                <button onclick="add_task()">add task</button>
+            </div>
+            <!-- <ul id="task_list"></ul> -->
+        </div>
+        <table>
+            <tr id = "table_heading">
+                <th style="width: 7%;">Sr.</th>
+                <th style="width: 20%;">Title</th>
+                <th style="width: 55%;">Description</th>
+                <th style="width: 10%;">Status</th>
+                <th style="width: 7%;">Delete</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>Task1</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia facilis aperiam, explicabo libero earum dolor, dignissimos voluptate provi</td>
+                <td><button id="Status">Pending</button></td>
+                <td><button id="delete">Delete</button></td>
+            </tr>
+        </table>
+        <script src="script.js" ></script>
+    </div>
+    </body>
+    
+    </html>
+    
